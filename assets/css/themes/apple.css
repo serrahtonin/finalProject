@@ -1922,6 +1922,157 @@ body {
   -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0 inset;
   box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0 inset;
 }
+#jqt > * { background: white; }
+
+#jqt .page.no-border { border: none !important; }
+#jqt .page.no-border > li { border: none; }
+#jqt .toolbar { background: url(img/flip-clock/binding_dark.png) 0 0 repeat; }
+
+#jqt .toolbar { margin: 0 0 10px 0; padding: 0; height: 50px; }
+#jqt .toolbar > h1, #jqt .toolbar > h1 a { 
+	border-bottom: 1px dashed rgb(111, 188, 219);
+	margin: 0;
+	padding: 0 0 8px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	left: 0;
+	top: 10px;
+	bottom: 3px;
+	font-weight: 200;
+	font-size: 30px;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	line-height: 1em;
+	color: rgb(182, 252, 230);
+	text-shadow: 0 -1px 0 rgb(193, 244, 255);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+	text-decoration: none;
+}
+
+#jqt .toolbar a { top: 7px; }
+
+#jqt .page > li a.button.active,
+#jqt .block.button, 
+#jqt .block.button:active,
+#jqt .block.button.active {
+	position: static;
+	display: block;
+	top: auto;
+	left: auto;
+	text-align: center;
+	font-size: 22px;
+	text-shadow: 0 1px 0 white !important;
+	padding: 10px;
+	height: auto;
+	box-shadow: none;
+	border: 1px solid rgb(231, 232, 232) !important;
+	margin: .5em;
+	color: rgb(#E1D1D1, #E1D1D1, #E1D1D1) !important;
+}
+
+#jqt, h2, h3, h4, h5, h6 { font-family: 'Ubuntu', sans-serif; }
+
+#jqt .button, #jqt .back, #jqt .cancel, #jqt .add, #jqt .left {
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	color: rgb(20, 20, 19);
+	text-shadow: 0 1px 0 white;
+}
+
+#jqt .page > li a.button.active,
+#jqt .button.active, #jqt .back.active, #jqt .cancel.active, #jqt .add.active, #jqt .left.active,
+#jqt .button:visited, #jqt .back:visited, #jqt .cancel:visited, #jqt .add:visited, #jqt .left:visited,
+#jqt .button:active, #jqt .back:active, #jqt .cancel:active, #jqt .add:active, #jqt .left:active {
+	background: rgb(229,229,229); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	color: rgb(20, 20, 19);
+	text-shadow: 0 1px 0 white;
+}
+
+#jqt .back:after {
+	background: rgb(229,229,229); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+#jqt li .icon-chevron-right { float: right; }
+
+.clock {
+ 	background: url(img/flip-clock/mochaGrunge.png);
+ 	padding: 1em;
+ 	box-shadow: 0 0 15px rgba(0, 0, 0, .4) inset;
+ 	border-bottom: 6px solid rgb(182, 252, 230);
+}
+
+.clock > div {
+	margin: 2em auto;
+	width: 470px;
+ 	text-shadow: 0 1px 0 rgb(200, 200, 200);
+}
+
+.flip-clock-divider .flip-clock-label { 
+ 	text-shadow: 0 1px 0 rgb(200, 200, 200) !important;
+ 	font-size: 16px;
+ }
+
+.flip-clock-wrapper .flip-clock-divider.hours .flip-clock-label { right: -92px !important; }
+.flip-clock-wrapper .flip-clock-divider.minutes .flip-clock-label { right: -98px !important; }
+.flip-clock-wrapper .flip-clock-divider.seconds .flip-clock-label { right: -99px !important; }
+
+.timecard {
+	background: url(img/flip-clock/triangles.png);
+	margin: 0 0 1em;
+	padding: 1em;
+	text-shadow: none;
+	color: rgb(211, 210, 211);
+	border-radius: 5px;
+	font-weight: 400;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.timecard-actions { float: right; margin-left: 1em; }
+.timecard-actions a { color: rgb(211, 210, 211); text-decoration: none; margin-right: 10px; }
+.timecard-actions a:last-child { margin-right: 0; }
+
+.timecard-header { border-bottom: 1px solid rgb(211, 210, 211); font-weight: 300; margin-bottom: 10px; }
+.timecard-header span { color: rgb(128, 128, 128); font-size: 16px; position: relative; bottom: 3px; }
+
+.todo-app-timecard-form { margin: 1em 1em 0; display: none; }
+.todo-app-timecard-form-cancel { float: right; color: white; text-decoration: none; background: rgb(96, 97, 98); border-radius: 1000px; padding: 6px 8px; font-size: 10px; height: 24px; width: 24px; text-align: center; margin-bottom: 10px }
+.todo-app-timecard-form-cancel i { position: relative; top: 1px;}
+.todo-app-timecard-form label { color: rgb(132, 132, 131); }
+#jqt .page > li textarea,
+.todo-app-timecard-form textarea {
+	display: block;
+	height: 150px;
+	width: 100%;
+	border: none;
+	resize: none !important;
+	padding: 0 3px;
+}
+
+.empty, .empty p { font-size: 24px !important; font-weight: 400; text-align: center; margin: 2em 0; }
+
+.empty .button { margin: 2em !important; }
+
 /* line 34, ../scss/apple.scss */
 #jqt ul li input[type="checkbox"], #jqt ul li input[type="radio"] {
   color: #324f85;
