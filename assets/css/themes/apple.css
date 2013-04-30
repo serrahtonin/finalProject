@@ -1922,7 +1922,7 @@ body {
   -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0 inset;
   box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0 inset;
 }
-#jqt > * { background: white; }
+#jqt > * { background: #e1d1d1; }
 
 #jqt .page.no-border { border: none !important; }
 #jqt .page.no-border > li { border: none; }
@@ -1943,13 +1943,13 @@ body {
 	font-size: 30px;
 	font-family: 'Oleo Script Swash Caps', cursive;
 	line-height: 1em;
-	color: rgb(182, 252, 230);
+	color: rgb(255,255,255);
 	text-shadow: 0 -1px 0 rgb(193, 244, 255);
 	box-shadow: 0 0 10px rgba(0, 0, 0, .6);
 	text-decoration: none;
 }
 
-#jqt .toolbar a { top: 7px; }
+#jqt .toolbar a { top: 12px; }
 
 #jqt .page > li a.button.active,
 #jqt .block.button, 
@@ -1967,7 +1967,7 @@ body {
 	box-shadow: none;
 	border: 1px solid rgb(231, 232, 232) !important;
 	margin: .5em;
-	color: rgb(#E1D1D1, #E1D1D1, #E1D1D1) !important;
+	color: rgb(182, 252, 230) !important;
 }
 
 #jqt, h2, h3, h4, h5, h6 { font-family: 'Ubuntu', sans-serif; }
