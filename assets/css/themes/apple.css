@@ -1566,9 +1566,9 @@ body {
   margin: -10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-transform: translateZ(0);
-  background-color: whitesmoke;
+  background-color: (165, 237, 240);
   color: #262626;
-  text-shadow: white 0 1px 0;
+  text-shadow: rgb(67, 74, 87) 0 1px 0;
 }
 /* line 265, ../scss/include/_skeleton.scss */
 #jqt ul li a.active {
@@ -1944,7 +1944,7 @@ body {
 	font-size: 30px;
 	font-family: 'Oleo Script Swash Caps', cursive;
 	line-height: 1em;
-	color: rgb(255,255,255);
+	color: rgb(182, 252, 230);
 	text-shadow: 0 -1px 0 rgb(193, 244, 255);
 	box-shadow: 0 0 10px rgba(0, 0, 0, .6);
 	text-decoration: none;
@@ -1968,7 +1968,7 @@ body {
 	box-shadow: none;
 	border: 1px solid rgb(231, 232, 232) !important;
 	margin: .5em;
-	color: rgb(182, 252, 230) !important;
+	color: rgb(100, 100, 100) !important;
 }
 
 #jqt, h2, h3, h4, h5, h6 { font-family: 'Ubuntu', sans-serif; }
